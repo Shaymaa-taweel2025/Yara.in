@@ -60,3 +60,28 @@ justify-content: center;
   }
 }
 
+/*brand section*/
+
+.brands{
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+}
+.brands img{
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+  .brands{
+    padding: 10px 0;
+  }
+  .brands img{
+    width: 95%;
+  }
+}
+
+
+
