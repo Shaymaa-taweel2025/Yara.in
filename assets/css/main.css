@@ -88,6 +88,7 @@ justify-content: center;
 }
 
 /*categories*/
+
 .Categories h2{
   font-size: 50px;
   font-weight: 600;
@@ -127,3 +128,24 @@ justify-content: center;
   }
 }
 
+/*product*/
+
+.products h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 115px;
+  
+}
+.product-card img{
+  width: 100%;
+  display: block;
+  
+}
+@media screen  and (max-width:768px){
+  .product-card{
+    margin-bottom: 20px;
+  }
+  .products h2{
+    font-size: 1.5rem;
+  }
+}
