@@ -3,6 +3,10 @@
   --maincolor: var(--green-bg);
 
 }
+.main-color{
+  color: #30433D;
+  font-family:"Poppins", sans-serif ;
+}
 
 .navbar a {
   font-family: var(--mainfont);
@@ -83,5 +87,43 @@ justify-content: center;
   }
 }
 
+/*categories*/
+.Categories h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 115px;
+  
+}
+.cat-card{
+  display: block;
+  position: relative;
+  width: 100%;
+  
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  
+}
+.cat-card img{
+  width: 100%;
+  display: block;
+  
+}
+.cat-label{
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: #E5E1CE;
+  font-size: 34px;
+  font-weight: 600;
 
+}
+@media screen  and (max-width:768px){
+  .cat-card{
+    margin-bottom: 20px;
+  }
+  .Categories h2{
+    font-size: 1.5rem;
+  }
+}
 
