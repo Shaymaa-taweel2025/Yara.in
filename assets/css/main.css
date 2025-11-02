@@ -93,7 +93,12 @@ justify-content: center;
   font-size: 50px;
   font-weight: 600;
   margin-left: 115px;
+  transition: all.5s;
   
+}
+.Categories h2:hover{
+  color: #597d71;
+  cursor: pointer;
 }
 .cat-card{
   display: block;
@@ -109,6 +114,13 @@ justify-content: center;
   width: 100%;
   display: block;
   
+}
+.Categories span{
+  transition: all.6s;
+}
+.Categories .cat-card span:hover{
+  color:#597d71;
+  cursor: pointer;
 }
 .cat-label{
   position: absolute;
@@ -130,11 +142,18 @@ justify-content: center;
 
 /*product*/
 
-.products h2{
+.products a{
+  text-decoration: none;
   font-size: 50px;
   font-weight: 600;
   margin-left: 115px;
   
+}
+.products a{
+  transition: all.5s;
+}
+.products a:hover{
+  color: #597d71;
 }
 .product-card img{
   width: 100%;
@@ -145,7 +164,26 @@ justify-content: center;
   .product-card{
     margin-bottom: 20px;
   }
-  .products h2{
+  .products a{
     font-size: 1.5rem;
+  }
+}
+/*low-banner*/
+.low-banner{
+  background-image: url(./../img/hero/low\ banner.png);
+    background-size: contain;
+  background-position:center ;
+ background-repeat:no-repeat ;
+min-height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+ overflow: hidden;
+}
+@media screen and (max-width:768px) {
+  .low-banner{
+    min-height: 30vh;
+    margin-top: 20px;
+    background-size:contain ;
   }
 }
