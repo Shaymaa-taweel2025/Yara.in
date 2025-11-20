@@ -12,6 +12,7 @@
   font-family: var(--mainfont);
   line-height: 78.5%;
 }
+
 a{
  text-decoration: none;
 }
@@ -209,6 +210,7 @@ font-family: var(--mainfont);
   color: #597d71;
   cursor: pointer;
 }
+
 @media screen and(max-width:768px) {
   .footer h3{
    font-size: 1rem;
